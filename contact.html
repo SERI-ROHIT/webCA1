@@ -3,16 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <style>
+        /* Set the page to cover the full viewport */
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .content p {
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .image-gallery img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        .footer-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .footer-button:hover {
+            background-color: #218838;
+        }
+    </style>
 </head>
 <body>
     <div class="content">
         <h1>Contact Us</h1>
-        <p>This is the contact page with five sample images.</p>
+        <p>This is the contact page with a sample image.</p>
         <div class="image-gallery">
             <img src="img1.jpg" alt="Image 1">
-           
         </div>
     </div>
+
+    
 </body>
 </html>
