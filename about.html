@@ -3,16 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Services</title>
+    <style>
+        /* Full viewport with flexbox layout */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Main content area */
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #e0f7fa;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content h1 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Footer section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Footer button styling */
+        .footer-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .footer-button:hover {
+            background-color: #218838;
+        }
+    </style>
 </head>
 <body>
+    <!-- Main content section -->
     <div class="content">
-        <h1>About Us</h1>
-        <p>This is the about page with five sample images.</p>
+        <h1>About</h1>
+        <p>This is the About us page with sample images.</p>
         <div class="image-gallery">
-            <img src="img5.jpg" alt="Image 1">
-           
+            <img src="img5.jpg" alt="Image 5">
         </div>
     </div>
+
+    <!-- Footer section with button -->
+    <footer>
+        <a href="gallery.html" class="footer-button">Gallery</a>
+    </footer>
 </body>
 </html>
